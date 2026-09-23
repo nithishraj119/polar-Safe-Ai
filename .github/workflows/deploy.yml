@@ -35,7 +35,7 @@ jobs:
 
       - name: Build
         working-directory: frontend
-        run:|
+        run: |
         chmod +x node_modules/.bin/vite
         npm run build
 
